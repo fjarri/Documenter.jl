@@ -480,8 +480,8 @@ function git_push(
     function git_commands()
         # Setup git.
         run(`git init`)
-        run(`git config user.name "zeptodoctor"`)
-        run(`git config user.email "44736852+zeptodoctor@users.noreply.github.com"`)
+        run(`git config user.name "fredrikekre"`)
+        run(`git config user.email "ekrefredrik@gmail.com"`)
 
         # Fetch from remote and checkout the branch.
         run(`git remote add upstream $upstream`)
